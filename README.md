@@ -19,4 +19,4 @@ This suite consists of hand-crafted instances designed to stress-test the effici
 *   **Structure:** These formulae involve a sequence of $n$ `store` operations on an array. 
 *   **Satisfiable ($S_n$):** A chain of stores where each value is constrained to be positive, combined with a sum constraint.
 *   **Unsatisfiable ($U_n$):** Similar to the $S_n$ chain, but starting from a constant array $K(0)$ and asserting a negative total sum, creating a logical contradiction.
-*   **Purpose:** Unlike the SMT-LIB benchmarks, these demonstrate the performance gap between basic procedures and optimized procedures as the number of indices increases.
+*   **Purpose:** Unlike the SMT-LIB benchmarks, these demonstrate the performance gap between basic procedure and optimized procedure as the number of indices increases.
